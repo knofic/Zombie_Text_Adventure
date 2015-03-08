@@ -1,0 +1,15 @@
+"""def use_fak(self):"""
+
+"""def use_pp(self):"""
+
+
+        for Consumables in self.inventory:
+            if isinstance(Consumables, items.Consumables):
+
+
+ def use_pp(self):
+            if self.stamina <= 100:
+            self.stamina = self.stamina + 30
+            print("\nYou now have {} stamina.".format(self.stamina))
+        else:
+            print("\nYou have {} stamina.".format(self.stamina), "You're as pumped as you are gonna get!")
